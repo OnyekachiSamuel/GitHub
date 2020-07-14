@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class HomeCellViewModel {
+    let name: String
+    init(commitAuthor: CommitAuthor) {
+        self.name = commitAuthor.name
+    }
+}
