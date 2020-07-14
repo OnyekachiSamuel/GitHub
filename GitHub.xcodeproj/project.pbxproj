@@ -11,6 +11,13 @@
 		DD51E89424BDBB77002F5DB5 /* CommitAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89324BDBB77002F5DB5 /* CommitAuthor.swift */; };
 		DD51E89624BDBB9A002F5DB5 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89524BDBB9A002F5DB5 /* Commit.swift */; };
 		DD51E89824BDBBC2002F5DB5 /* UserCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89724BDBBC2002F5DB5 /* UserCommit.swift */; };
+		DD51E89D24BDBCAE002F5DB5 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89C24BDBCAE002F5DB5 /* HTTPMethod.swift */; };
+		DD51E89F24BDBD0E002F5DB5 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89E24BDBD0E002F5DB5 /* RequestBuilder.swift */; };
+		DD51E8A224BDBE0E002F5DB5 /* BasicRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E8A124BDBE0E002F5DB5 /* BasicRequestBuilder.swift */; };
+		DD51E8A524BDBE63002F5DB5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E8A424BDBE63002F5DB5 /* Request.swift */; };
+		DD51E8A724BDC043002F5DB5 /* GitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E8A624BDC043002F5DB5 /* GitHub.swift */; };
+		DD51E8A924BDC07A002F5DB5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E8A824BDC07A002F5DB5 /* APIClient.swift */; };
+		DD51E8AC24BDC144002F5DB5 /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E8AB24BDC144002F5DB5 /* APIClientProtocol.swift */; };
 		DDA000C124BDB4FC0016E49C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA000C024BDB4FC0016E49C /* AppDelegate.swift */; };
 		DDA000C324BDB4FC0016E49C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA000C224BDB4FC0016E49C /* SceneDelegate.swift */; };
 		DDA000C524BDB4FC0016E49C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA000C424BDB4FC0016E49C /* HomeController.swift */; };
@@ -34,6 +41,13 @@
 		DD51E89324BDBB77002F5DB5 /* CommitAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitAuthor.swift; sourceTree = "<group>"; };
 		DD51E89524BDBB9A002F5DB5 /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
 		DD51E89724BDBBC2002F5DB5 /* UserCommit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCommit.swift; sourceTree = "<group>"; };
+		DD51E89C24BDBCAE002F5DB5 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		DD51E89E24BDBD0E002F5DB5 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		DD51E8A124BDBE0E002F5DB5 /* BasicRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRequestBuilder.swift; sourceTree = "<group>"; };
+		DD51E8A424BDBE63002F5DB5 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		DD51E8A624BDC043002F5DB5 /* GitHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub.swift; sourceTree = "<group>"; };
+		DD51E8A824BDC07A002F5DB5 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		DD51E8AB24BDC144002F5DB5 /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
 		DDA000BD24BDB4FC0016E49C /* GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA000C024BDB4FC0016E49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDA000C224BDB4FC0016E49C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +84,39 @@
 				DD51E89124BDBB0C002F5DB5 /* Model.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		DD51E89924BDBC6C002F5DB5 /* RequestBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				DD51E8A124BDBE0E002F5DB5 /* BasicRequestBuilder.swift */,
+				DD51E89E24BDBD0E002F5DB5 /* RequestBuilder.swift */,
+			);
+			path = RequestBuilder;
+			sourceTree = "<group>";
+		};
+		DD51E89B24BDBC95002F5DB5 /* HTTPMethod */ = {
+			isa = PBXGroup;
+			children = (
+				DD51E89C24BDBCAE002F5DB5 /* HTTPMethod.swift */,
+			);
+			path = HTTPMethod;
+			sourceTree = "<group>";
+		};
+		DD51E8A024BDBD79002F5DB5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DD51E8AB24BDC144002F5DB5 /* APIClientProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		DD51E8A324BDBE50002F5DB5 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DD51E8A424BDBE63002F5DB5 /* Request.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		DDA000B424BDB4FB0016E49C = {
@@ -182,6 +229,12 @@
 		DDA000EA24BDB7D60016E49C /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				DD51E8A824BDC07A002F5DB5 /* APIClient.swift */,
+				DD51E8A624BDC043002F5DB5 /* GitHub.swift */,
+				DD51E89B24BDBC95002F5DB5 /* HTTPMethod */,
+				DD51E8A024BDBD79002F5DB5 /* Protocol */,
+				DD51E8A324BDBE50002F5DB5 /* Request */,
+				DD51E89924BDBC6C002F5DB5 /* RequestBuilder */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -330,8 +383,15 @@
 			files = (
 				DD51E89824BDBBC2002F5DB5 /* UserCommit.swift in Sources */,
 				DD51E89624BDBB9A002F5DB5 /* Commit.swift in Sources */,
+				DD51E8A224BDBE0E002F5DB5 /* BasicRequestBuilder.swift in Sources */,
 				DD51E89424BDBB77002F5DB5 /* CommitAuthor.swift in Sources */,
+				DD51E8A524BDBE63002F5DB5 /* Request.swift in Sources */,
+				DD51E8AC24BDC144002F5DB5 /* APIClientProtocol.swift in Sources */,
+				DD51E89F24BDBD0E002F5DB5 /* RequestBuilder.swift in Sources */,
+				DD51E8A724BDC043002F5DB5 /* GitHub.swift in Sources */,
 				DDA000C524BDB4FC0016E49C /* HomeController.swift in Sources */,
+				DD51E89D24BDBCAE002F5DB5 /* HTTPMethod.swift in Sources */,
+				DD51E8A924BDC07A002F5DB5 /* APIClient.swift in Sources */,
 				DDA000C124BDB4FC0016E49C /* AppDelegate.swift in Sources */,
 				DDA000C324BDB4FC0016E49C /* SceneDelegate.swift in Sources */,
 				DD51E89224BDBB0C002F5DB5 /* Model.swift in Sources */,

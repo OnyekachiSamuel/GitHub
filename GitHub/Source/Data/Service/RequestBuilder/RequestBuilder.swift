@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+public protocol RequestBuilder {
+    var method: HTTPMethod { get }
+    var baseURL: URL { get }
+    func toURLRequest() -> URLRequest
+}
+
+extension RequestBuilder {
+    func toURLRequest() -> URLRequest {
+        let components = URLComponents(url: baseURL, resolvingAgainstBaseURL: false)
+        let url = components!.url!
+        var request = URLRequest(url: url)
+        
+        request.httpMethod = method.rawValue.uppercased()
+        return request
+    }
+}
