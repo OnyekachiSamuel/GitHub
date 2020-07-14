@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class UserCommitViewModel {
+public class HomeViewModel {
     private let apiClient: APIClientProtocol
     var completion: (([CommitAuthor], String?) -> Swift.Void)?
     
