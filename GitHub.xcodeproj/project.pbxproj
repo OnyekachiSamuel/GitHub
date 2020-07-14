@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DD51E89224BDBB0C002F5DB5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89124BDBB0C002F5DB5 /* Model.swift */; };
+		DD51E89424BDBB77002F5DB5 /* CommitAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89324BDBB77002F5DB5 /* CommitAuthor.swift */; };
+		DD51E89624BDBB9A002F5DB5 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89524BDBB9A002F5DB5 /* Commit.swift */; };
+		DD51E89824BDBBC2002F5DB5 /* UserCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51E89724BDBBC2002F5DB5 /* UserCommit.swift */; };
 		DDA000C124BDB4FC0016E49C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA000C024BDB4FC0016E49C /* AppDelegate.swift */; };
 		DDA000C324BDB4FC0016E49C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA000C224BDB4FC0016E49C /* SceneDelegate.swift */; };
 		DDA000C524BDB4FC0016E49C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA000C424BDB4FC0016E49C /* HomeController.swift */; };
@@ -28,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		DD51E89124BDBB0C002F5DB5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DD51E89324BDBB77002F5DB5 /* CommitAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitAuthor.swift; sourceTree = "<group>"; };
+		DD51E89524BDBB9A002F5DB5 /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		DD51E89724BDBBC2002F5DB5 /* UserCommit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCommit.swift; sourceTree = "<group>"; };
 		DDA000BD24BDB4FC0016E49C /* GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA000C024BDB4FC0016E49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDA000C224BDB4FC0016E49C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +172,9 @@
 		DDA000E924BDB7CD0016E49C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DD51E89524BDBB9A002F5DB5 /* Commit.swift */,
+				DD51E89324BDBB77002F5DB5 /* CommitAuthor.swift */,
+				DD51E89724BDBBC2002F5DB5 /* UserCommit.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,6 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD51E89824BDBBC2002F5DB5 /* UserCommit.swift in Sources */,
+				DD51E89624BDBB9A002F5DB5 /* Commit.swift in Sources */,
+				DD51E89424BDBB77002F5DB5 /* CommitAuthor.swift in Sources */,
 				DDA000C524BDB4FC0016E49C /* HomeController.swift in Sources */,
 				DDA000C124BDB4FC0016E49C /* AppDelegate.swift in Sources */,
 				DDA000C324BDB4FC0016E49C /* SceneDelegate.swift in Sources */,
