@@ -27,6 +27,7 @@
 		DDA000C524BDB4FC0016E49C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA000C424BDB4FC0016E49C /* HomeController.swift */; };
 		DDA000CA24BDB5090016E49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA000C924BDB5090016E49C /* Assets.xcassets */; };
 		DDA000CD24BDB5090016E49C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA000CB24BDB5090016E49C /* LaunchScreen.storyboard */; };
+		DDB9307024BDDA67000C9AD2 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB9306F24BDDA67000C9AD2 /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		DDA000CE24BDB5090016E49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA000D324BDB50A0016E49C /* GitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA000D924BDB50A0016E49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB9306F24BDDA67000C9AD2 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				DD51E8B024BDC6AD002F5DB5 /* HomeCell.swift */,
+				DDB9306F24BDDA67000C9AD2 /* Loader.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				DD51E89424BDBB77002F5DB5 /* CommitAuthor.swift in Sources */,
 				DD51E8A524BDBE63002F5DB5 /* Request.swift in Sources */,
 				DD51E8AC24BDC144002F5DB5 /* APIClientProtocol.swift in Sources */,
+				DDB9307024BDDA67000C9AD2 /* Loader.swift in Sources */,
 				DD51E89F24BDBD0E002F5DB5 /* RequestBuilder.swift in Sources */,
 				DD51E8A724BDC043002F5DB5 /* GitHub.swift in Sources */,
 				DDA000C524BDB4FC0016E49C /* HomeController.swift in Sources */,

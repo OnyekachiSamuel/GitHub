@@ -13,8 +13,10 @@ class HomeController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        loader.startAnimating()
         viewModel.completion = { [weak self] (commits, error) in
             guard let self = self else { return }
+            self.loader.stopAnimating()
             self.commitAuthors = commits
             self.tableView.reloadData()
         }
@@ -25,10 +27,12 @@ class HomeController: UITableViewController {
     
     private let viewModel = HomeViewModel()
     private var commitAuthors: [CommitAuthor] = []
+    private let loader = Loader()
     
     // MARK: Private Instance Method
     
     private func setupView() {
+        tableView.backgroundView = loader
         tableView.register(HomeCell.self, forCellReuseIdentifier: HomeCell.reuseIdentifier)
         tableView.tableFooterView = UIView()
     }
